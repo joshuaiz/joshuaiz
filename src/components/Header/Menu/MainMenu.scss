@@ -1,0 +1,25 @@
+$serif: "Merriweather", "Georgia", Cambria, Times New Roman, Times, serif;
+
+.primary-nav {
+    position: relative;
+    top: 3px;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -1px;
+    li {
+        padding: 0 5px;
+        a {
+            color: #fff;
+            font-family: $serif;
+            font-size: 14px;
+        }
+    }
+}
+

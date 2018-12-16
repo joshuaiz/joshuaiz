@@ -1,0 +1,27 @@
+.post-title {
+    margin-top: 1em;
+}
+
+.hentry {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.flex-wrap {
+    display: flex;
+    margin: 0 auto;
+    .content {
+        padding-right: 2.2em;
+        .hentry {
+            max-width: 100%;
+        }
+    }
+}
+
+.single-post {
+    .with-sidebar {
+        .main {
+            margin: 0;
+        }
+    }
+}

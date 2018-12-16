@@ -1,0 +1,115 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Button Styles
+
+Buttons are a pretty important part of your site's style, so it's
+important to have a consistent baseline for them. Use this stylesheet
+to create all kinds of buttons.
+
+Helpful Links:
+http://galp.in/blog/2011/08/02/the-ui-guide-part-1-buttons/
+
+******************************************************************/
+
+/*********************
+BUTTON DEFAULTS
+We're gonna use a placeholder selector here
+so we can use common styles. We then use this
+to load up the defaults in all our buttons.
+
+See here on placeholder selectors and why you should
+use @extend instead of @include:
+http://thesassway.com/intermediate/understanding-placeholder-selectors
+
+Also, don't use cursor: pointer; for buttons as they already should 
+signify that they are clickable:
+
+https://medium.com/simple-human/buttons-shouldnt-have-a-hand-cursor-b11e99ca374b
+
+*********************/
+
+%button {
+    position: relative;
+    display: inline-block;
+    margin-bottom: .5em;
+    padding: 12px 24px;
+    border: 0;
+    border-radius: 32px;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    &:hover, &:focus {}
+    &:active {
+        top: 1px; // adds a tiny hop to the click
+    }
+} // end .button
+
+.button {
+    @extend %button;
+}
+
+.blue-button {
+    @extend %button;
+    background: #0056ac;
+    color: #fff !important;
+    // text-align: center;
+    &:hover, &:focus {
+        background: darken(#0056ac, 8%);
+        color: #fff !important;
+        text-decoration: none;
+    }
+}
+
+.green-button {
+    @extend %button;
+    background: #369b1d;
+    color: #fff !important;
+    // text-align: center;
+    &:hover, &:focus {
+        background: darken(#369b1d, 8%);
+        color: #fff !important;
+        text-decoration: none;
+    }
+}
+
+.bandcamp-button {
+    @extend %button;
+    background: #61929C;
+    color: #fff !important;
+    // text-align: center;
+    &:hover, &:focus {
+        background: darken(#61929C, 8%);
+        color: #fff !important;
+        text-decoration: none;
+    }
+    
+}
+
+.spotify-button {
+    @extend %button;
+    background: #1db954;
+    color: #fff !important;
+    // text-align: center;
+    &:hover, &:focus {
+        background: darken(#1db954, 8%);
+        color: #fff !important;
+        text-decoration: none;
+    }
+    
+}
+
+.buy-button, .green-button, .spotify-button {
+    display: flex;
+    align-items: center;
+    i {
+        width: 32px;
+        margin-right: 2px;
+        position: relative;
+        left: -4px;
+    }
+    .vizual-icon {
+        width: 26px;
+    }
+}

@@ -1,0 +1,30 @@
+$sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+$rubik: 'Rubik', $sans;
+
+header.header {
+    // background-color: #112233;
+    background-color: #00011d;
+    // background-color: #22313f;
+    width: 100%;
+}
+
+.inner-header {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em 0;
+    .site-title {
+        margin-right: 12px;
+        font-family: $rubik;
+        a {
+            font-size: 1.5rem;
+            color: #fff;
+            &:hover, &:focus {
+                opacity: 0.85;
+            }
+        }
+    }
+}
+
