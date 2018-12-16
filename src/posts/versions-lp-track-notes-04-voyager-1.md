@@ -3,7 +3,7 @@ path: "/words/versions-lp-track-notes-04-voyager-1"
 date: "2018-03-05"
 title: "Versions LP Track Notes: 04 Voyager 1"
 image: "../images/versions_fb_share5_sm.png"
-postExcerpt: "Joshua Iz Versions LP track 04 Voyager 1 track notes"
+postExcerpt: "Joshua Iz Versions LP track 04 Voyager 1 track notes."
 withAudio: true
 playlist: "voyager1"
 playlistTitle: "Joshua Iz - Voyager 1"

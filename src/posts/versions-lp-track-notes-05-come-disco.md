@@ -3,7 +3,7 @@ path: "/words/versions-lp-track-notes-05-come-disco"
 date: "2018-03-20"
 title: "Versions LP Track Notes: 05 Come Disco"
 image: "../images/joshuaiz_tracks_05@2x.png"
-postExcerpt: "Joshua Iz Versions LP track 05 Come Disco track notes"
+postExcerpt: "Joshua Iz Versions LP track 05 Come Disco track notes."
 withAudio: true
 playlist: "comedisco"
 playlistTitle: "Joshua Iz - Come Disco"

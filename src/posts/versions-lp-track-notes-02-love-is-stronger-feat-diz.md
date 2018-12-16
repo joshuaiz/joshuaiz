@@ -3,7 +3,7 @@ path: "/words/versions-lp-track-notes-02-love-is-stronger-feat-diz"
 date: "2018-02-23"
 title: "Versions LP Track Notes: 02 Love Is Stronger feat. Diz"
 image: "../images/joshuaiz_track02.png"
-postExcerpt: "Joshua Iz Versions LP track 02 Love Is Stronger feat. Diz track notes"
+postExcerpt: "Joshua Iz Versions LP track 02 Love Is Stronger feat. Diz track notes."
 withAudio: true
 playlist: "loveisstronger"
 playlistTitle: "Joshua Iz feat. Diz - Love Is Stronger"

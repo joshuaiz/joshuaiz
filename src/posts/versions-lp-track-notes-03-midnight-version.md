@@ -3,7 +3,7 @@ path: "/words/versions-lp-track-notes-03-midnight-version"
 date: "2018-03-01"
 title: "Versions LP Track Notes: 03 Midnight Version"
 image: "../images/joshuaiz_tracks_03@2x.png"
-postExcerpt: "Joshua Iz Versions LP track 03 Midnight Version track notes"
+postExcerpt: "Joshua Iz Versions LP track 03 Midnight Version track notes."
 withAudio: true
 playlist: "midnight"
 playlistTitle: "Joshua Iz - Midnight Version"

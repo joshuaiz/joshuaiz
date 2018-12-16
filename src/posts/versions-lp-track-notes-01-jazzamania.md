@@ -3,7 +3,7 @@ path: "/words/versions-lp-track-notes-01-jazzamania"
 date: "2018-02-22"
 title: "Versions LP Track Notes: 01 Jazzamania"
 image: "../images/joshuaiz_tracks_01.png"
-postExcerpt: "Joshua Iz Versions LP track 01 Jazzamania track notes"
+postExcerpt: "Joshua Iz Versions LP track 01 Jazzamania track notes."
 withAudio: true
 playlist: "jazzamania"
 playlistTitle: "Joshua Iz - Jazzamania"
