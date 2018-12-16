@@ -30,9 +30,9 @@ const MusicPage = ({ location }) => (
             <div className="page-content entry-content">
                 <p>
                     <i className="fas fa-headphones-alt" />
-                    &nbsp; I dj and produce music. I&apos;ve been lucky enough
-                    to travel the world and dj on 5 continents, with residencies
-                    at{' '}
+                    &nbsp; I dj and produce music. I&apos;ve been fortunate
+                    enough to travel the world and dj on 5 continents, with
+                    residencies at{' '}
                     <a
                         href="https://www.fabriclondon.com"
                         target="_blank"
