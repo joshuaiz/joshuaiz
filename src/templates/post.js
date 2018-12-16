@@ -41,7 +41,7 @@ const PostTemplate = ({ data, location, pageContext }) => {
                     crossOrigin="anonymous"
                 />
             </Helmet>
-            <Layout>
+            <Layout location={location}>
                 <Link className="posts-link" to="/words/">
                     &larr; Back to Posts
                 </Link>

@@ -19,7 +19,7 @@ const NavLink = ({ test, url, text }) => {
     if (!test) {
         return <Link to={url}>{text}</Link>
     }
-    return <span>{text}</span>
+    return <span>{null}</span>
 }
 
 const Pagination = ({ pageContext }) => {

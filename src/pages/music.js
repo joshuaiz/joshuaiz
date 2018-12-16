@@ -4,7 +4,7 @@ import Layout from '../components/Layouts/DefaultLayout'
 import SiteMeta from '../components/SiteMeta/SiteMeta'
 import Logo from '../components/Header/Logo/Logo'
 
-const MusicPage = () => (
+const MusicPage = ({ location }) => (
     <Fragment>
         <SiteMeta />
         <Helmet
@@ -25,9 +25,9 @@ const MusicPage = () => (
                 class: 'joshuaiz-music page-music'
             }}
         />
-        <Layout>
+        <Layout location={location}>
             <h1 className="page-title">Music</h1>
-            <div className="page-content">
+            <div className="page-content entry-content">
                 <p>
                     <i className="fas fa-headphones-alt" />
                     &nbsp; I dj and produce music. I&apos;ve been lucky enough

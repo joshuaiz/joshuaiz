@@ -18,10 +18,10 @@ const NavLink = props => {
 
 /* eslint-enable */
 
-const IndexPage = ({ pageContext }) => {
+const IndexPage = ({ pageContext, location }) => {
     const { group, index } = pageContext
 
-    console.log(group)
+    // console.log('Words', location)
     return (
         <Fragment>
             <SiteMeta />
@@ -43,7 +43,7 @@ const IndexPage = ({ pageContext }) => {
                     class: `blogroll page-blog page-words page-words-${index}`
                 }}
             />
-            <Layout>
+            <Layout location={location}>
                 <h4>
                     {index === 1 ? `Latest Posts:` : `Posts Page: ${index}`}
                 </h4>
