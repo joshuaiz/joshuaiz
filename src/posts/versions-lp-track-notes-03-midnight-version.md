@@ -13,6 +13,11 @@ vizualLink: "https://vizualrecords.com/catalog/albums/vizlp3"
 spotifyLink: "https://open.spotify.com/album/6upHQD67iapVV2nWxFUKuR"
 ---
 
+
+##### **These track notes are short insights into the inspiration and motivation behind the tracks on the 'Versions' LP by Joshua Iz**
+
+---
+
 The main loop in 'Midnight Version' is from an old mambo track and just has a wonderful warm sound that makes me think of red velvet and impeccable suits.
 
 As I often do, I started with the loop and build up rhythmically around that. Sometimes after getting into the nitty gritty of a track I end up taking the original loop out altogether yet loops are a great way to get ideas flowing quickly and in this case I left the loop in.

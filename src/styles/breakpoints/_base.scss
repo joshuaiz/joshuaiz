@@ -52,6 +52,10 @@ img {
     height: auto;
 }
 
+.gatsby-image-wrapper {
+    margin-bottom: 1.5em;
+}
+
 code[class*="language-"], pre[class*="language-"] {
     font-family: 'SF Mono', 'Consolas', 'Monaco', monospace !important;
     font-size: 15px !important;

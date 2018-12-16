@@ -13,6 +13,10 @@ vizualLink: "https://vizualrecords.com/catalog/albums/vizlp3"
 spotifyLink: "https://open.spotify.com/album/6upHQD67iapVV2nWxFUKuR"
 ---
 
+##### **These track notes are short insights into the inspiration and motivation behind the tracks on the 'Versions' LP by Joshua Iz**
+
+---
+
 For a track like this, I think I'm supposed to hint at what I sampled and explain how much the original track meant to me but I can't even remember for the life of me what it was. What I _can_ tell you is I played the keys and I quite like how the electronic strings lay on top of the disco loop. 
 
 This track was finished in a few hours — it was one of those times where everything just came together quickly. Yet, as you get more experienced making tracks it's not as if the stars just align and a track just falls in your lap. You not only just know what sound(s) to add but how to make them sound like what you have in your head. 

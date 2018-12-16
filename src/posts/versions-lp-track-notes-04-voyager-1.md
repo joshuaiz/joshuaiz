@@ -13,6 +13,10 @@ vizualLink: "https://vizualrecords.com/catalog/albums/vizlp3"
 spotifyLink: "https://open.spotify.com/album/6upHQD67iapVV2nWxFUKuR"
 ---
 
+##### **These track notes are short insights into the inspiration and motivation behind the tracks on the 'Versions' LP by Joshua Iz**
+
+---
+
 'Voyager 1' was made in the fall of 2017 after I saw the PBS documentary <a href="http://www.pbs.org/the-farthest/home/" rel="noopener" target="_blank">The Farthest</a> on the Voyager space probes. <em>The Farthest</em> is a beautiful documentary and focused a lot on the story behind the gold musical discs that were attached to the spacecraft. Music was used throughout the documentary to great effect which inspired me to make this track. 
 
 Along with my love of all things space and science, I also wanted to make a track kind of like Model 500's 'Starlight' which was also a hugely influential track for me. I'm not sure 'Voyager 1' was totally successful but I think it sounds like space travel and I'm ok with that.

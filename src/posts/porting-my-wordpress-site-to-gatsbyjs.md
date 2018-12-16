@@ -2,7 +2,7 @@
 path: "/words/porting-my-wordpress-site-to-gatsbyjs"
 date: "2018-12-14"
 title: "Porting my WordPress site to GatsbyJS"
-image: "../images/joshuaiz_tracks_03@2x.png"
+image: "../images/joshuaiz_og15.png"
 postExcerpt: "I ported joshuaiz.com from WordPress to GatsbyJs. Here's why."
 withAudio: false
 ---
@@ -10,7 +10,7 @@ withAudio: false
 
 I've been working a lot with React lately and in the React ecosystem there has been a considerable amount of buzz about [GatsbyJS](https://www.gatsbyjs.org) — a really cool static (or not-so-static) site generator which uses all of the latest JavaScript stuffs: React, Webpack, GraphQL, code-splitting, prefetching that can load data from just about anywhere: local markdown files, a CMS like WordPress or Drupal, json, and more. While Gatsby has been around for a couple years, it seems to be really picking up steam as of late.
 
-**joshuaiz.com** (this site) has been around since 2002: first as a static HTML site, then it moved to WordPress where it has been since 2006...until now. ***This* site is built with GatsbyJS.** 
+**joshuaiz.com** has existed in various incarnations since 2002: first as a static HTML site, then it moved to WordPress where it has been since 2006...until now. ***This* site is built with GatsbyJS.** 
 
 Gatsby is not only fun to develop with, it makes it fun to *create content*. Working and developing with Gatsby feels a lot like when I first got into WordPress: exciting and full of possibilities. That's a great feeling and anything that gets me or any developer to *write* more is a very good thing.
 
@@ -22,7 +22,7 @@ So when thinking about rebuilding joshuaiz.com with Gatsby, I could use Gatsby f
 
 > Could _I_ live the dream? Or at least live [Dan Abramov's](https://twitter.com/dan_abramov/) dream?
 
-It turns out, you *can* live the dream. I can write my posts in markdown and any edits to the content *or* the site design is updated _in real time_ using the hot reloading in Gatsby. 
+It turns out, you *can* live the dream. I can write my posts in markdown and any edits to the content *or* the site design is updated — at least on my local install — _in real time_ using the hot reloading in Gatsby. Once I'm happy, I push my updates to GitHub with one key command and the site is completely rebuilt and served via [Netlify](https://www.netlify.com)...boom!
 
 While real time updates may not seem like much, **it feels really amazing to do this** in practice. This is what blogging should be.
 
