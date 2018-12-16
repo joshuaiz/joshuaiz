@@ -78,6 +78,26 @@ pre[class*="language-"] {
     width: auto;
 }
 
+.post-footer {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 1px solid #ddd;
+    .post-footer-logo {
+        display: flex;
+        align-items: center;
+    }
+    .site-title {
+        width: 200px;
+        a {
+            padding-bottom: 2px;
+            box-shadow: 0 1px 0 0 currentColor;
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    }
+}
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/
