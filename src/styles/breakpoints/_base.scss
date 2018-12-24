@@ -57,6 +57,7 @@ img {
 }
 
 .post-image {
+    margin: 1.5em 0; 
     img {
         border-radius: 5px;
     }
@@ -203,6 +204,7 @@ h1.post-title {
 h2, .h2 {
     margin-top: 0.88em;
     font-size: 2.369em;
+    font-family: $rubik;
 }
 
 h3, .h3 {
@@ -1172,4 +1174,40 @@ pre[class*="language-"] {
 pre > code.highlight {
   outline: .4em solid #EC5f67;
   outline-offset: .4em;
+}
+
+.token.function {
+	color: #DAD085;
+}
+
+.token.regex {
+    color: #E9C062;
+}
+
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+.gatsby-highlight-code-line {
+  background-color: #0056ac;
+  display: block;
+  margin-right: -1.5em;
+  margin-left: -1.5em;
+  padding-right: 1.5em;
+  padding-left: 1.25em;
+  color: rgb(223, 202, 12);
+  font-weight: 700;
+  border-left: 0.25em solid #6699CC;
 }

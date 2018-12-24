@@ -12,7 +12,7 @@ import { slugify } from '../helpers/helpers'
 
 const PostTemplate = ({ data, location, pageContext }) => {
     const { markdownRemark } = data // data.markdownRemark holds our post data
-    // console.log(pageContext)
+    console.log('Post pageContext', pageContext)
     const { frontmatter, html, excerpt, id, timeToRead } = markdownRemark
 
     // console.log('Post', frontmatter)

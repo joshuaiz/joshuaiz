@@ -10,6 +10,7 @@ playlistTitle: "Joshua Iz - Versions LP"
 bandcampLink: "https://joshuaiz.bandcamp.com/album/versions"
 vizualLink: "https://vizualrecords.com/catalog/albums/vizlp3"
 spotifyLink: "https://open.spotify.com/album/6upHQD67iapVV2nWxFUKuR"
+draft: false
 ---
 
 My second full-length album, 'Versions' is out now at the <a href="https://vizualrecords.com/catalog/albums/vizlp3" target="_blank">Vizual Store</a> and <a href="https://vizual.bandcamp.com/" target="_blank">Bandcamp</a> and all fine digital and streaming outlets.

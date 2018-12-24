@@ -11,6 +11,7 @@ playlistSubtitle: "From the album 'Versions' out now on Vizual Records."
 bandcampLink: "https://joshuaiz.bandcamp.com/album/versions"
 vizualLink: "https://vizualrecords.com/catalog/albums/vizlp3"
 spotifyLink: "https://open.spotify.com/album/6upHQD67iapVV2nWxFUKuR"
+draft: false
 ---
 
 ##### **These track notes are short insights into the inspiration and motivation behind the tracks on the 'Versions' LP by Joshua Iz**

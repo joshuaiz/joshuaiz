@@ -12,7 +12,7 @@ const PostHeader = ({ frontmatter, timeToRead }) => (
                         <span role="img" aria-label="emoji">
                             &#9201;
                         </span>
-                        &nbsp;Reading time:&nbsp;
+                        Reading time:&nbsp;
                         {timeToRead && timeToRead}
                         {timeToRead === 1 ? ' minute' : ' minutes'}
                     </span>

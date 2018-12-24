@@ -23,6 +23,7 @@
     "gatsby-transformer-sharp": "^2.1.8",
     "html-react-parser": "^0.4.7",
     "node-sass": "^4.11.0",
+    "parse-numeric-range": "0.0.2",
     "prismjs": "^1.15.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",

@@ -5,6 +5,7 @@ title: "Porting my WordPress site to GatsbyJS"
 image: "../images/joshuaiz_og15.png"
 postExcerpt: "I ported joshuaiz.com from WordPress to GatsbyJs. Here's why."
 withAudio: false
+draft: false
 ---
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Don’t mean to overhype it, and note it has its warts. But <a href="https://twitter.com/gatsbyjs?ref_src=twsrc%5Etfw">@gatsbyjs</a> blog authoring experience is incredible. Hot reloading feels instant. I write posts and tweak styles or layout, and see my changes reflected in real time. This was my dream.</p>&mdash; Dan Abramov (@dan_abramov) <a href="https://twitter.com/dan_abramov/status/1068884262273933312?ref_src=twsrc%5Etfw">December 1, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

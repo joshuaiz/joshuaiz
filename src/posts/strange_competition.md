@@ -4,6 +4,7 @@ date: "2015-02-11"
 title: "Strange Competition"
 image: "../images/strange-competition2.png"
 postExcerpt: "In the new sharing and gig economy, retail competition can come from less obvious places."
+draft: false
 ---
 
 I'm a huge fan of [Amazon Prime](http://www.amazon.com/Amazon-Prime-One-Year-Membership/dp/B00DBYBNEE) and more recently [Amazon Prime Pantry](http://www.amazon.com/b?ie=UTF8&node=7301146011). My 57 Amazon Prime orders in 2014 bears this out. Ok I'm an Amazon junkie, I admit it.

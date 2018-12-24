@@ -5,6 +5,7 @@ title: "Pioneer XDJ-RX First Impressions"
 image: "../images/xdj-rx-front.jpg"
 postExcerpt: "When I saw the first press releases for the Pioneer XDJ-RX DJ Console it looked like it had all the features I was looking for in a home unit: dual USBs, full Rekordbox support, computer and mobile phone connectivity plus all the crucial filters and effects from Pioneer's high-end DJ mixers."
 withAudio: false
+draft: false
 ---
 
 When I saw the first press releases for the [Pioneer XDJ-RX DJ Console](http://www.pioneerdj.com/en/product/all-in-one-system/xdj-rx/black/overview) it looked like it had all the features I was looking for in a home unit: dual USBs, full Rekordbox support, computer and mobile phone connectivity plus all the crucial filters and effects from Pioneer's high-end DJ mixers. The DJ Console had grown up and was now ready for prime time, or at least ready to become the centerpiece in my dedicated home mixing setup.

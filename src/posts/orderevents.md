@@ -5,6 +5,7 @@ title: "Ordering Events by Advanced Custom Fields Date & Time Picker Field"
 image: "../images/acf.png"
 postExcerpt: "At a certain point it became necessary to filter and sort by the start date & time using the Advanced Custom Fields Date & Time Picker. This isn't as easy as it seems."
 withAudio: false
+draft: false
 ---
 
 While working on the DJ Gigs plugin, at a certain point it became necessary to filter and sort dj gigs by the start date & time using the [Advanced Custom Fields Date & Time Picker](http://wordpress.org/plugins/acf-field-date-time-picker/). This isn't as easy as it seems. Hours of creative Googling got me all kinds of code snippets that looked promising but in the end didn't work.
