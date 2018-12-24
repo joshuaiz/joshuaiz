@@ -5,7 +5,7 @@ title: "Migrating Your Site from WordPress to GatsbyJS"
 image: "../images/joshuaiz_og12.png"
 postExcerpt: "I moved my personal site joshuaiz.com from WordPress to GatsbyJs. Here's how you can do it too."
 withAudio: false
-draft: true
+draft: false
 ---
 
 In my last post ['Porting My WordPress Site To GatsbyJS'](https://www.joshuaiz.com/words/porting-my-wordpress-site-to-gatsbyjs) I discussed a bit about the motivation to move my site from WordPress where it had been for over a decade to [GatsbyJS](https://www.gatsbyjs.org/).
