@@ -964,9 +964,14 @@ Hopefully this was a clear introduction into how to create a Gatsby blog using M
 
 ...and much more.
 
+### Grab the code
+Code for this demo can be found here:
+
+[https://github.com/joshuaiz/mddemo](https://github.com/joshuaiz/mddemo)
+
 I encourage you to visit the [Gatsby docs](https://www.gatsbyjs.org/docs/), and dive deeper to customize your site even more.
 
-If you have any specific questions about this tutorial, you can contact me via the footer of this page.
+If you have any specific questions about this tutorial, you can file an issue at the code repo above or contact me via the footer of this page.
 
 
 
