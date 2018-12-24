@@ -960,6 +960,7 @@ Hopefully this was a clear introduction into how to create a Gatsby blog using M
 - home page
 - more complex GraphQL queries
 - generating pages from Markdown
+- adding [pagination](https://www.gatsbyjs.org/packages/gatsby-paginate/)
 
 ...and much more.
 
