@@ -56,7 +56,7 @@ Falcon Instruments Used:<br />
 Other software synths:<br />
 
 - Arturia: Analog Lab 3; Buchla Easel V; Clavinet V; CMI V; DX-7 V; Farfisa V; SEM V2; Solina V2; Synclavier V; Vox Continental V2
-- Dimitr Sches: Thorn
+- Dimitry Sches: Thorn
 - Applied Acoustic Systems: Chromaphone 2; String Studio VS-2; Strum GS-2
 - Futurcraft: Kairatune
 
