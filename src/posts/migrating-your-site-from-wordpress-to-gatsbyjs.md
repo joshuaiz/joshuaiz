@@ -516,7 +516,7 @@ You might be asking: why do we need to query posts *again*? I thought we queried
 
 To clarify: there is the initial query in `gatsby-node.js` that queries our posts' paths to generate the individual post pages,  and then an additional query for each individual post to get that posts' data to display in the `post.js` template for each post. 
 
-The initial query sends the individual post template some data we can use to narrow down our individual post query to just that posts' data. See here in `gatsby-node.js`:
+The initial query sends the individual post template some data we can use to narrow down our individual post query to just that posts' data. Let's look at the query in  your `post.js` template again:
 
 ```javascript{4,6-9}
 export const pageQuery = graphql`
@@ -555,7 +555,7 @@ export const pageQuery = graphql`
     }
 `
 ```
-Then in `post.js`, let's add this `id` as a `className` on our container element so change this:
+Then above in `post.js`, let's add this `id` as a `className` on our container element so change this:
 
 ```javascript
 const { frontmatter, html } = markdownRemark
