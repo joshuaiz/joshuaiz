@@ -78,7 +78,7 @@ My 'Add To Cart' buttons were like so, sending the product id and quantity to my
 And my `addToCart` handler is like so:
 
 ```javascript
-const addToLocalCart = ({ product_id, quantity }) => {
+const addToCart = ({ product_id, quantity }) => {
     const checkId = obj => obj.id === product_id
     const currentCatalog = [...catalog]
     if (localCart.some(checkId)) {
