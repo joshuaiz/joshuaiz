@@ -15,7 +15,7 @@ Over the past 18 months, I made a deep dive into upping my JavaScript skills inc
 
 There was no doubt about it: the Vizual site needed an overhaul. I was using an outdated e-commerce plugin (Cart66) which made entering product data a bit cumbersome and it was slow. What's more, since the last redesign of vizualrecords.com, WooCommerce had come a long way and had been purchased by Automattic — the parent company of WordPress — so I knew I wanted to port my products over to WooCommerce with its now tighter integration with the WordPress core.
 
-After entering all the product data and custom metadata for the Vizual releases in WooCommerce, I had all the data I needed in WordPress and was ready to build out the front end. Sweetness
+After entering all the product data and custom metadata for the Vizual releases in WooCommerce, I had all the data I needed in WordPress and was ready to build out the front end. Sweetness.
 
 ## No Cart API
 In working with headless WordPress and WooCommerce, one of the first issues you will come across is that the WooCommerce cart is not exposed to the WP REST API. Thus, you can't retrieve the cart, add an item to the cart or clear the cart using API calls.
@@ -40,7 +40,7 @@ While you probably *want* a cart and you probably *should* have one, there's no 
 
 All you need to do is keep track of the products your customer wants to buy, and then send the product `line_items` to WooCommerce along with payment data to process your order. No cart necessary!
 
-What this means is you can handle your cart and its requisite state 100% locally in your app and then just send your order data to WooCommerce at Checkout when ready.
+So now you can handle your cart and its requisite state 100% locally in your app and then just send your order data to WooCommerce at Checkout when ready.
 
 And that's exactly what I did.
 
