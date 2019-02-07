@@ -3,11 +3,11 @@ import { Link } from 'gatsby'
 import './MainMenu.scss'
 
 const MainMenu = ({ location }) => {
-    console.log('Menu', location)
+    // console.log('Menu', location)
     // get current page so we can add 'current-menu-item' class
     const currentUrl = location ? location.pathname.replace(/\//g, '') : null
 
-    console.log('Menu', currentUrl)
+    // console.log('Menu', currentUrl)
 
     const words = 'words'
     const music = 'music'

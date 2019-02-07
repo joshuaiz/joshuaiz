@@ -3,6 +3,9 @@ import React from 'react'
 const PostHeader = ({ frontmatter, timeToRead }) => (
     <header className="article-header">
         <h1 className="post-title">{frontmatter.title}</h1>
+        {frontmatter.subtitle && (
+            <h3 className="post-subtitle">{frontmatter.subtitle}</h3>
+        )}
         <div className="byline-wrap post-date">
             <span className="posted-on">
                 <span className="screen-reader-text">Posted on</span>

@@ -1,19 +1,20 @@
 ---
 path: "/words/no-woocommerce-cart-api-no-problem"
 date: "2019-02-03"
-title: "No WooCommerce Cart API? No Problem. Why you don't need the WooCommerce cart for your headless WordPress app."
+title: "No WooCommerce Cart API? No Problem."
+subtitle: "Why you don't need the WooCommerce cart for your headless WordPress app."
 image: "../images/wc_cart_api.png"
 postExcerpt: "You can build a headless WordPress/WooCommerce app without the cart api. Here's how."
 withAudio: false
 draft: false
 ---
-I've been working on rebuilding [vizualrecords.com](https://www.vizualrecords.com) as a headless WordPress site with a React front end. *Headless* means that the WordPress data and admin are essentially decoupled from the public facing web site so by calling in your data using the WordPress REST API, you can build the front end with whatever framework you like — in my case React — but you could use Vue, Angular, Ember or anything else. 
+I've been working on rebuilding [vizualrecords.com](https://www.vizualrecords.com) as a headless WordPress site with a [React](https://reactjs.org/) front end. *Headless* means that the WordPress data and admin are essentially decoupled from the public facing web site so by calling in your data using the[ WordPress REST API]((https://developer.wordpress.org/rest-api/)), you can build the front end with whatever framework you like — in my case React — but you could use Vue, Angular, Ember or anything else. 
 
 > Creating a headless WordPress site gives you a lot of freedom but that also means you're left to build a lot yourself that WordPress normally would provide for you out-of-the-box.
 
 Over the past 18 months, I made a deep dive into upping my JavaScript skills including React/React Native so the Vizual site rework was a perfect chance to put what I had learned to the test.
 
-There was no doubt about it: the Vizual site needed an overhaul. I was using an outdated e-commerce plugin (Cart66) which made entering product data a bit cumbersome and it was slow. What's more, since the last redesign of vizualrecords.com, WooCommerce had come a long way and had been purchased by Automattic — the parent company of WordPress — so I knew I wanted to port my products over to WooCommerce with its now tighter integration with the WordPress core.
+There was no doubt about it: the Vizual site needed an overhaul. I was using an outdated e-commerce plugin (Cart66) which made entering product data a bit cumbersome and it was slow. What's more, since the last redesign of vizualrecords.com, [WooCommerce](https://woocommerce.com/) had come a long way and had been purchased by [Automattic](https://automattic.com/) — the parent company of WordPress — so I knew I wanted to port my products over to WooCommerce with its now tighter integration with the WordPress core.
 
 After entering all the product data and custom metadata for the Vizual releases in WooCommerce, I had all the data I needed in WordPress and was ready to build out the front end. Sweetness.
 
