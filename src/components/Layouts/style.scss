@@ -132,3 +132,12 @@ be set to display none.
     // styles in print.scss
     @import "../../styles/partials/print";
 }
+
+// hack for Safari word-wrap
+@media not all and (min-resolution:.001dpcm) { 
+    @media screen {
+        body, p, h1, h2, h3, h4, h5 { 
+            white-space: nowrap;
+        }
+    }
+}
