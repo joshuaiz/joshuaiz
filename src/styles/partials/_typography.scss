@@ -88,9 +88,9 @@ some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
 p {
-  -ms-word-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word; //non-standart css for webkit
+//   -ms-word-wrap: break-word;
+//   word-wrap: break-word;
+//   word-break: break-word; //non-standart css for webkit
   // I don't like hyphens for web text so uncomment the next section if you do
   -webkit-hyphens: none;
      -moz-hyphens: none;
