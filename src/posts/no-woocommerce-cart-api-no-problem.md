@@ -28,7 +28,7 @@ With CoCart installed I had a working cart and test payments were running flawle
 ## Problem.
 Once I pushed the site live, a menacing bug became apparent very quickly: while I could keep the cart in the client app's state, how would WooCommerce know which cart belongs to whom? **There was nothing to sync a particular cart with a particular user**. Ruh roh.
 
-With a normal LAMP stack WordPress site, WooCommerce uses PHP sessions in the browser o keep shopping carts in sync and stores the session and cart data in cookies for each visitor to the site. In a React/JavaScript app however, *there are no sessions* so multiple people could add to the cart and my app would have no way to keep the cart state in sync for each one. I would open up the site and there would be 'ghost' products in the cart from who knows where. 
+With a normal LAMP stack WordPress site, WooCommerce uses PHP sessions in the browser to keep shopping carts in sync and stores the session and cart data in cookies for each visitor to the site. In a React/JavaScript app however, *there are no sessions* so multiple people could add to the cart and my app would have no way to keep the cart state in sync for each one. I would open up the site and there would be 'ghost' products in the cart from who knows where. 
 
 There's no 'session bridge' or anything in a javascript app that I could use to access or imitate PHP sessions, nor was I able to access or set session cookies client-side. Wat do?
 
