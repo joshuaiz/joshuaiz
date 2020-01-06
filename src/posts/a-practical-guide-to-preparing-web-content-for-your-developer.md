@@ -37,7 +37,7 @@ If you have a section labeled 'The Challenge' in one place, then 'Our Challenge'
 Consistency also applies to text. If you have bulleted lists, either add a period at the end of each bullet point or don't — it's really up to you. **But don't do both.** It may seem like a little thing but fixing all of these takes valuable time.
 
 ## Tip #5: Don't embed everything in a Word doc.
-Developers are pretty used to getting content in all kinds of ways and formats: via email, Dropbox, PDFs, spreadsheets, PowerPoint files — you name it, we've seen it.
+Developers are pretty used to getting content in all kinds of ways and formats: text via email, Dropbox, PDFs, spreadsheets, PowerPoint files — you name it, we've seen it.
 
 Yet, the worst way to receive content is a _pre-formatted_ Word document with all of the images and links embedded in the file. There's nothing wrong with Word documents per se but if you are going to use Word, don't add more than basic formatting (bold, italic, etc.), send the images separately, and include footnotes to links instead of embedding urls into the text. Or at least include full url links after the linked text.
 
@@ -46,3 +46,51 @@ Yet, the worst way to receive content is a _pre-formatted_ Word document with al
 If you pre-format your document to make it look like you want, that only creates more work for the developer as we have to strip out all of the styles and formatting you've added, only to add it again with HTML. 
 
 Leave your files as plain as possible and your developer will thank you.
+
+## Tip #6: Provide original, full-resolution images.
+We do a lot of image manipulation to prepare content for the web: resizing, cropping, rotating, color correcting, and more. 
+
+Let us handle this the right way by providing us with original, full-resolution images so we can make them look good on every device. 
+
+## Tip #7: Provide logos in vector format.
+We'll need to resize your logo (or any other logo) so give it to us in a vector format so it will look crisp everywhere.
+
+Vector graphics formats include:
+- Adobe Illustrator (.ai)
+- EPS (Encapsulated Post Script) (.eps)
+- Adobe Photoshop (.psd)
+- Editable PDF (.pdf)
+- Sketch (.sketch)
+- Scalable Vector Graphics (.svg)
+
+Your designer should have your logo in one of these formats and you should have a copy of it.
+
+Note that JPEG (.jpeg), PNG (.png), and GIF (.gif) are not vector formats and don't retain their resolution when scaled.
+
+## Tip #8: Gather all your logins.
+Invariably when starting a new project, your developer will need some or all of the following logins:
+
+- hosting
+- current site admin
+- FTP
+- domain registrar
+- payment processor
+- plugins
+- portals with embeds
+
+In my experience, clients **never** have these ready and often weeks can go by before all the required logins are tracked down. While this doesn't halt work completely, it can cause bottlenecks while we're waiting for access.
+
+One thing my agency does at the end of every project is send over a sheet with **all** the logins in one place for our clients. They really like having this and can add to it moving forward.
+
+## Tip #9: Pick a point person whose responsible for the project.
+As a developer, it can be aggravating dealing with multiple people or a committee, especially when no one is responsible for getting us what we need.
+
+Before embarking on your project, pick a point person and give them the authority to get what they need while also make them responsible for the project. 
+
+For us, having one person to deal with is much easier than wading through multiple email threads or trying to get clarification or approval from multiple people.
+
+
+## Summary
+We ❤️ our clients. Help your developer love you too by providing content to developers so that they can present your organization in the best way possible.
+
+
