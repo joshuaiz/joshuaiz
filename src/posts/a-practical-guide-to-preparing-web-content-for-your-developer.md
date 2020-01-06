@@ -82,7 +82,7 @@ In my experience, clients **never** have these ready and often weeks can go by b
 
 One thing my agency does at the end of every project is send over a sheet with **all** the logins in one place for our clients. They really like having this and can add to it moving forward.
 
-## Tip #9: Pick a point person whose responsible for the project.
+## Tip #9: Pick a point person who is responsible for the project.
 As a developer, it can be aggravating dealing with multiple people or a committee, especially when no one is responsible for getting us what we need.
 
 Before embarking on your project, pick a point person and give them the authority to get what they need while also make them responsible for the project. 
