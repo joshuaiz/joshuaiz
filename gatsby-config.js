@@ -107,76 +107,76 @@ module.exports = {
                     `rubik mono one`
                 ]
             }
-        },
-        {
-            resolve: `gatsby-plugin-feed`,
-            options: {
-                query: `
-              {
-                site {
-                  siteMetadata {
-                    title
-                    description
-                    url
-                    site_url: url
-                  }
-                }
-              }
-            `,
-                feeds: [
-                    {
-                        serialize: ({ query: { site, allMarkdownRemark } }) => {
-                            return allMarkdownRemark.edges.map(edge => {
-                                return Object.assign(
-                                    {},
-                                    edge.node.frontmatter,
-                                    {
-                                        description: edge.node.excerpt,
-                                        date: edge.node.frontmatter.date,
-                                        url:
-                                            site.siteMetadata.url +
-                                            edge.node.fields.slug,
-                                        guid:
-                                            site.siteMetadata.url +
-                                            edge.node.fields.slug,
-                                        custom_elements: [
-                                            {
-                                                'content:encoded':
-                                                    edge.node.html
-                                            }
-                                        ]
-                                    }
-                                )
-                            })
-                        },
-                        query: `
-                  {
-                    allMarkdownRemark {
-                      nodes {
-                        excerpt
-                        html
-                        frontmatter {
-                          date
-                          title
-                          postExcerpt
-                          image {
-                            childImageSharp {
-                              original {
-                                src
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                `,
-                        output: '/rss.xml',
-                        title: 'Joshua Iz - RSS Feed'
-                    }
-                ]
-            }
         }
+        // {
+        //     resolve: `gatsby-plugin-feed`,
+        //     options: {
+        //         query: `
+        //       {
+        //         site {
+        //           siteMetadata {
+        //             title
+        //             description
+        //             url
+        //             site_url: url
+        //           }
+        //         }
+        //       }
+        //     `,
+        //         feeds: [
+        //             {
+        //                 serialize: ({ query: { site, allMarkdownRemark } }) => {
+        //                     return allMarkdownRemark.edges.map(edge => {
+        //                         return Object.assign(
+        //                             {},
+        //                             edge.node.frontmatter,
+        //                             {
+        //                                 description: edge.node.excerpt,
+        //                                 date: edge.node.frontmatter.date,
+        //                                 url:
+        //                                     site.siteMetadata.url +
+        //                                     edge.node.fields.slug,
+        //                                 guid:
+        //                                     site.siteMetadata.url +
+        //                                     edge.node.fields.slug,
+        //                                 custom_elements: [
+        //                                     {
+        //                                         'content:encoded':
+        //                                             edge.node.html
+        //                                     }
+        //                                 ]
+        //                             }
+        //                         )
+        //                     })
+        //                 },
+        //                 query: `
+        //           {
+        //             allMarkdownRemark {
+        //               nodes {
+        //                 excerpt
+        //                 html
+        //                 frontmatter {
+        //                   date
+        //                   title
+        //                   postExcerpt
+        //                   image {
+        //                     childImageSharp {
+        //                       original {
+        //                         src
+        //                       }
+        //                     }
+        //                   }
+        //                 }
+        //               }
+        //             }
+        //           }
+        //         `,
+        //                 output: '/rss.xml',
+        //                 title: 'Joshua Iz - RSS Feed'
+        //             }
+        //         ]
+        //     }
+        // }
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.app/offline
         // 'gatsby-plugin-offline',
