@@ -151,16 +151,20 @@ module.exports = {
                         },
                         query: `
                   {
-                    allMarkdownRemark(
-                      sort: { order: DESC },
-                    ) {
-                      edges {
-                        node {
-                          excerpt
-                          html
-                          frontmatter {
-                            title
-                            date
+                    allMarkdownRemark {
+                      nodes {
+                        excerpt
+                        html
+                        frontmatter {
+                          date
+                          title
+                          postExcerpt
+                          image {
+                            childImageSharp {
+                              original {
+                                src
+                              }
+                            }
                           }
                         }
                       }
