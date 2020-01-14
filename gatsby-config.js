@@ -125,40 +125,45 @@ module.exports = {
             `,
                 feeds: [
                     {
-                        serialize: ({ query: { site, allWordpressPost } }) => {
-                            return allWordpressPost.edges.map(edge => {
+                        serialize: ({ query: { site, allMarkdownRemark } }) => {
+                            return allMarkdownRemark.edges.map(edge => {
                                 return Object.assign(
                                     {},
+                                    edge.node.frontmatter,
                                     {
-                                        title: edge.node.title,
                                         description: edge.node.excerpt,
-                                        date: edge.node.date,
+                                        date: edge.node.frontmatter.date,
                                         url:
                                             site.siteMetadata.siteUrl +
-                                            '/blog/' +
-                                            edge.node.slug,
+                                            edge.node.fields.slug,
                                         guid:
                                             site.siteMetadata.siteUrl +
-                                            '/blog/' +
-                                            edge.node.slug
+                                            edge.node.fields.slug,
+                                        custom_elements: [
+                                            {
+                                                'content:encoded':
+                                                    edge.node.html
+                                            }
+                                        ]
                                     }
                                 )
                             })
                         },
                         query: `
                   {
-                    allWordpressPost(sort: { fields: [date], order: DESC }) {
+                    allMarkdownRemark(
+                      sort: { order: DESC, fields: [frontmatter___date] },
+                    ) {
                       edges {
                         node {
-                          title
                           excerpt
-                          slug
+                          html
+                          fields { slug }
+                          frontmatter {
+                            title
+                            date
+                          }
                         }
-                      }
-                    }
-                    site {
-                      siteMetadata {
-                        title
                       }
                     }
                   }
