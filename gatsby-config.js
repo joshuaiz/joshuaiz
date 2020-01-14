@@ -113,13 +113,11 @@ module.exports = {
             options: {
                 query: `
               {
-                site {
-                  siteMetadata {
-                    title
-                    description
-                    siteUrl
-                    site_url: siteUrl
-                  }
+                siteMetadata {
+                title
+                description
+                url
+                site_url: url
                 }
               }
             `,
