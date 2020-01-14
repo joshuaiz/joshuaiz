@@ -159,16 +159,8 @@ module.exports = {
                           excerpt
                           html
                           frontmatter {
-                          date
-                          path
-                          title
-                          subtitle
-                          image {
-                            childImageSharp {
-                              original {
-                                src
-                              }
-                            }
+                            title
+                            date
                           }
                         }
                       }
