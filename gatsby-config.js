@@ -152,16 +152,23 @@ module.exports = {
                         query: `
                   {
                     allMarkdownRemark(
-                      sort: { order: DESC, fields: [frontmatter___date] },
+                      sort: { order: DESC },
                     ) {
                       edges {
                         node {
                           excerpt
                           html
-                          fields { slug }
                           frontmatter {
-                            title
-                            date
+                          date
+                          path
+                          title
+                          subtitle
+                          image {
+                            childImageSharp {
+                              original {
+                                src
+                              }
+                            }
                           }
                         }
                       }
