@@ -113,11 +113,13 @@ module.exports = {
             options: {
                 query: `
               {
-                siteMetadata {
-                title
-                description
-                url
-                site_url: url
+                site {
+                  siteMetadata {
+                    title
+                    description
+                    url
+                    site_url: url
+                  }
                 }
               }
             `,
@@ -132,10 +134,10 @@ module.exports = {
                                         description: edge.node.excerpt,
                                         date: edge.node.frontmatter.date,
                                         url:
-                                            siteMetadata.url +
+                                            site.siteMetadata.url +
                                             edge.node.fields.slug,
                                         guid:
-                                            siteMetadata.url +
+                                            site.siteMetadata.url +
                                             edge.node.fields.slug,
                                         custom_elements: [
                                             {
