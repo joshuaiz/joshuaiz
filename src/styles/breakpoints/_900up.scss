@@ -8,3 +8,12 @@ This is for some trickier in-between 'tweener' sizes like larger
 tablets.
 
 ******************************************************************/
+
+.post-content {
+    img {
+        margin-right: calc(15% - 15vw);
+        margin-left: calc(15% - 15vw);
+        max-width: 155%;
+        width: auto;
+    }
+}
